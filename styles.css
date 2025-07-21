@@ -69,3 +69,50 @@
   align-items: center;
   justify-content: center;
 }
+
+/*
+
+    === Explicit vs implicit grid ===
+
+    Example:
+
+    <div class="container">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+    </div>
+
+    .container {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        grid-template-rows: 50px 50px;
+    }
+
+    1. This example only defines two rows but the 5th item is placed on a third row
+    2. The grid does this becuase of the implicit grid concept and how its capable of automatically placing items when not explicitly defined in the layout
+    3. grid-template-rows and grid-template-columns properties explicity define grid tracks, but when more tracks are needed, it will implicitly define new ones
+    4. The size values from the explicitly defined properties are not carried over into the implicit ones, but they can be defined seperately
+    5. Implicit grid tracks can be defined using the grid-auto-rows and grid-auto-columns properties
+
+    Example:
+
+    .container {
+        display: grid;
+        grid-template-columns: 50px 50px;
+        grid-template-rows: 50px 50px;
+        grid-auto-rows: 50px;
+    }
+
+    6. By default, grid will add additional content with implicit rows, as it is much less common for content to be added horizontally
+    7. Horizontal auto flow can be added with the grid-auto-flow: column property
+
+*/
+
+.container-two {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
+  grid-auto-rows: 50px;
+}
