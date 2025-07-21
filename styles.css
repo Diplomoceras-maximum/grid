@@ -1,0 +1,12 @@
+/* === CSS Grid === */
+
+/*
+
+    === What is grid? ===
+
+    1. Grid is often used for easier placement of items in a two-dimensional layout (rows and columns)
+    2. Grid is much better at matching items evenly in size
+    3. Grid can be paired with flexbox, flexboxs can be placed inside grids and the opposite is also true
+    4. The difference with flexbox is that instead of wrapping elements onto a new row, grid works in rows and columns and they can be added and removed when needed
+
+*/
