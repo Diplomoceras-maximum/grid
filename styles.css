@@ -437,13 +437,6 @@
   border: 1px solid gray;
 }
 
-.objects {
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /*
 
   === Dynamic minimum and maximum sizes ===
@@ -475,13 +468,6 @@
   border: 1px solid gray;
 }
 
-.child {
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /*
 
     2. clamp()
@@ -506,13 +492,6 @@
   resize: horizontal;
   overflow: auto;
   border: 1px solid gray;
-}
-
-.childs {
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*
@@ -557,13 +536,6 @@
   resize: horizontal;
   overflow: auto;
   border: 1px solid gray;
-}
-
-.cell {
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /*
